@@ -2,7 +2,6 @@ import { PropsWithChildren, useEffect, useState } from "react";
 import About from "./About";
 import Career from "./Career";
 import Contact from "./Contact";
-import Cursor from "./Cursor";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
@@ -11,12 +10,30 @@ import Work from "./Work";
 import TechStackNew from "./TechStackNew";
 import CallToAction from "./CallToAction";
 import setSplitText from "./utils/splitText";
+import TubesBackground from "./TubesBackground";
+import { setCharTimeline, setAllTimeline } from "./utils/GsapScroll";
 
 const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
     window.innerWidth > 1024
   );
   const [isMobile] = useState<boolean>(window.innerWidth <= 768);
+
+  useEffect(() => {
+    let mmChar: any;
+    let mmAll: any;
+
+    const timer = setTimeout(() => {
+      mmChar = setCharTimeline();
+      mmAll = setAllTimeline();
+    }, 100);
+
+    return () => {
+      clearTimeout(timer);
+      if (mmChar) mmChar.revert();
+      if (mmAll) mmAll.revert();
+    };
+  }, []);
 
   useEffect(() => {
     const resizeHandler = () => {
@@ -32,7 +49,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
 
   return (
     <div className="container-main">
-      <Cursor />
+      <TubesBackground />
       <Navbar />
       <SocialIcons />
       {isDesktopView && !isMobile && children}

@@ -291,11 +291,11 @@
   box-shadow: 0 10px 30px rgba(194, 164, 255, 0.4);
 }
 
-/* Mobile: Stack work items vertically when GSAP pinning is disabled */
-@media only screen and (max-width: 768px) {
+/* Mobile and Tablet: Stack work items vertically when GSAP pinning is disabled */
+@media only screen and (max-width: 1024px) {
   .work-section {
     height: auto;
-    min-height: auto;
+    min-height: 0;
   }
 
   .work-flex {
@@ -308,9 +308,12 @@
   .work-box {
     width: 100%;
     max-width: 100%;
-    padding: 30px 15px;
-    border-right: none;
-    border-bottom: 1px solid #363636;
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     gap: 20px;
   }
 

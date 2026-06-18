@@ -26,6 +26,8 @@
   font-weight: 600;
   margin-right: 10%;
   margin-bottom: 100px;
+  position: relative;
+  z-index: 20;
 }
 
 .hat-h2 {
@@ -53,6 +55,9 @@
   position: relative;
   padding: 50px;
   box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.03);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .what-noTouch:hover,
@@ -77,16 +82,18 @@
 .what-content p {
   font-size: 14px;
   line-height: 18px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.7px;
+  opacity: 0.9;
 }
 
 .what-content h4 {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   margin: 0px;
   font-size: 14px;
-  opacity: 0.3;
+  opacity: 0.8;
+  color: var(--accentColor, #c2a4ff);
 }
 
 .what-content-in {
@@ -386,11 +393,16 @@
 
   .what-content {
     width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(194, 164, 255, 0.15);
+    border-radius: 12px;
   }
 
   .what-box-in {
     margin-left: 0px;
     height: 450px;
+    gap: 15px; /* add spacing between cards */
   }
 
   .what-content h5,

@@ -1,24 +1,26 @@
-import { Link } from "react-router-dom";
+
 import { config } from "../config";
 import "./styles/CallToAction.css";
+import { LightBeamButton } from "./LightBeamButton";
+import { FiArrowRight } from "react-icons/fi";
 
 const CallToAction = () => {
   return (
     <div className="cta-section">
       <div className="cta-buttons">
-        <Link to="/play" className="cta-btn cta-btn-play" data-cursor="disable">
-          Play With Me →
-        </Link>
+        <LightBeamButton to="/play" data-cursor="disable">
+          Play With Me <FiArrowRight size={16} />
+        </LightBeamButton>
         
-        <a 
+        <LightBeamButton 
           href={config.contact.linkedin} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="cta-btn cta-btn-hire"
+          gradientColors={["#0077b5", "#00a0dc", "#0077b5"]}
           data-cursor="disable"
         >
-          Hire Me →
-        </a>
+          Hire Me <FiArrowRight size={16} />
+        </LightBeamButton>
       </div>
     </div>
   );
