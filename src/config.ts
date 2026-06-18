@@ -6,7 +6,7 @@ export const config = {
         description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
     },
     social: {
-        github: "red1-for-hek",
+        github: "Gaurav1000m",
         email: "gaurav1000m@gmail.com",
         location: "India"
     },

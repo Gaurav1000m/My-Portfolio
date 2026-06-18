@@ -1,0 +1,30 @@
+# Gaurav Tanwar
+
+Gaurav Tanwar is an elite AI Developer & Full-Stack Engineer based in India. He specializes in designing autonomous AI agents, fine-tuning large language models, building web game engines, and implementing premium 3D/WebGL user interfaces.
+
+## Contact Information
+- Website: https://www.GauravTnwr.me/
+- GitHub: https://github.com/Gaurav1000m
+- LinkedIn: https://www.linkedin.com/in/gaurav-tanwar-455066312/
+- Email: gaurav1000m@gmail.com
+- Location: India
+
+## Core Skills
+- **Artificial Intelligence / ML:** Deep Learning, NLP, LLM Fine-Tuning, Autonomous Agents, Neural Networks, PyTorch, TensorFlow
+- **Full-Stack Development:** React, TypeScript, Next.js, Node.js, FastAPI, MongoDB, PostgreSQL, REST APIs, Docker, Git
+- **Graphics & Creative:** Three.js, React Three Fiber (R3F), WebGL, GSAP, Figma
+
+## Key Projects
+- **Drishti:** Advanced custom LLM chatbot supporting Bengali and natural language understanding. Built with PyTorch, Transformers, FastAPI, React.
+- **RedxChess:** Neural network evaluation-based chess engine rated 3640 ELO. Built with Python, C++, UCI Protocol, Bitboards.
+- **VoteChain:** Decentralized blockchain election/voting system using Solidity smart contracts. Built with Web3.js, React, Ethereum, IPFS.
+- **Phoenix:** Voice-activated JARVIS-inspired desktop AI assistant automating OS workflows. Built with PyAutoGUI, Speech Recognition, OpenAI API.
+- **Floodhub:** ML prediction model for India's river systems using TensorFlow and GIS.
+- **Cinverse:** A movie streaming (OTT) web app featuring 3D UI integrations. Built with Clerk and Supabase.
+- **HekTools:** Kotlin-based security monitoring research tool for Android.
+
+## Professional Experience
+- **Learning & Self-Development (2025 - Present):** Researching advanced AI architectures, neural search, and open-source packages.
+- **AI Engineer (2025):** Chatbots, custom transformer training, LLMs.
+- **Full-Stack Developer (2024):** Web architectures, Node.js APIs, responsive UI design.
+- **Python Developer (2023):** Automation scripts, Discord bots, algorithm analysis.

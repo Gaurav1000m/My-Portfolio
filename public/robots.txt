@@ -1,0 +1,10 @@
+# Robots.txt for Gaurav Tanwar's Portfolio
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.GauravTnwr.me/sitemap.xml
+
+# LLM Crawler Context
+Info: https://www.GauravTnwr.me/llms.txt
+Info: https://www.GauravTnwr.me/ai.txt
